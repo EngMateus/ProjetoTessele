@@ -23,7 +23,7 @@ O principal objetivo do projeto é construir uma plataforma de e-commerce funcio
 
 - **Mateus Silva**
 - **Paola (sobrenome)**
-- **Bruno Cesar **
+- **Bruno Cesar**
 - **Lucas Negrini**
 - **Kevin Vinícius**
 
