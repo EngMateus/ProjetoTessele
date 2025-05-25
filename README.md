@@ -22,10 +22,10 @@ O principal objetivo do projeto é construir uma plataforma de e-commerce funcio
 ## 👨‍💻 Equipe de Desenvolvimento
 
 - **Mateus Silva**
-- **Paola [Sobrenome]**
-- **Bruno [Sobrenome]**
-- **Lucas [Sobrenome]**
-- **Kevin [Sobrenome]**
+- **Paola (sobrenome)**
+- **Bruno Cesar **
+- **Lucas Negrini**
+- **Kevin Vinícius**
 
 ## 📚 Contexto acadêmico
 
