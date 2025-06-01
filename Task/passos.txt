@@ -1,0 +1,50 @@
+Parte 1: Desenvolvimento por Grupo
+📌 Grupo 1: Criando a Estrutura HTML -> Ok
+Criar a estrutura base do HTML (index.html). -> Ok
+Adicionar um cabeçalho (<header>) com o título "Projeto de Página Web". -> Ok
+Criar uma seção principal (<section>) com um texto explicativo sobre o projeto. -> 
+Criar um rodapé (<footer>) com o nome dos participantes e o ano. -> 
+
+📌 Grupo 2: Estilizando Cabeçalho e Rodapé
+Criar estilos para o <header> (cor de fundo, centralização do texto). -> cor de fudo preto, centralização -> 
+Definir um estilo para o <footer> (cor diferente do cabeçalho, fonte menor, fixar no rodapé da página). -> 
+
+📌 Grupo 3: Estilizando o Conteúdo Principal
+Aplicar uma fonte personalizada na seção <section>.-> 
+Criar um fundo colorido para a seção principal. -> 
+Adicionar uma borda arredondada e um efeito de sombra.
+
+📌 Grupo 4: Ajustes Finais e Responsividade
+Criar um layout responsivo (usar @media para ajustar a página em telas menores).
+Melhorar a aparência geral (usar transições, espaçamentos adequados).
+Testar a página e corrigir possíveis erros.
+
+
+
+
+
+Ref - site da padaria da bpk
+
+🛍️ 2. Página de Loja Virtual (vitrine)
+Nome da loja e banner no topo
+
+Produtos exibidos em grade
+
+Cada produto com imagem, nome e preço
+
+Sem carrinho ou backend, apenas visual
+
+💡 Dica: Faça com visual moderno, cores harmônicas e bordas arredondadas.
+
+
+
+
+
+
+
+/// Verificar 
+
+1) Alinhamento do titulo do header com a logo do ico
+2) Verificar como que faz para toda vez que eu clico em home, produtos ou contato, nome da pagina ficar destado ex: estrei na home, o home fica destacado em relação a outras
+3) Verificar fontes dos anuncios dos produtos, essa eu usei por inmproviso
+4) Melhorar o nome dos produtos, apenas nome generico
