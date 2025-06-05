@@ -144,9 +144,6 @@ input[type="text"] {
         }
 
 
-/* 
-Define variaveis de cores, para faciliar em um unico lugar
-*/
 :root{
     --corPadrãoFundoPagina: rgb(255, 255, 255);
 }
@@ -301,6 +298,8 @@ footer a{
     transition: all 0.3s ease;
 }
 
+/* Responsividade  */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -312,3 +311,46 @@ footer a{
     }
 }
 
+@media (max-width: 768px) {
+    .barra {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .icones {
+        margin-right: 0;
+        gap: 30px;
+    }
+    
+    .menu {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 12px;
+    }
+    
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .product-info {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 2rem 0;
+    }
+    
+    .product-card {
+        border-radius: 12px;
+    }
+    
+    .product-image {
+        height: 250px;
+        font-size: 4rem;
+    }
+}
