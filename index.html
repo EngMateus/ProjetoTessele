@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <section>
     <header>
         <h1 style ="font-family: 'Arial', sans-serif;">
             PROJETO WEB  - Ecommerce
@@ -22,7 +23,7 @@
 
     <div class="barra">
         <div class="logo">
-            <img src="https://via.placeholder.com/120x40?text=LOGO" alt="Logo">
+            <img src="Assets\logo.webp" alt="Logo" style="height:75px; width:75px">
         </div>
 
         <div class="pesquisa">
@@ -71,19 +72,19 @@
 
                 * Rodapé (footer) com informações de contato ou redes sociais
             </p>
-            <a href="#produtos" class="cta-button">Ver Coleção</a>
         </div>
     </section>
 
     </section>
     <main class="products-container">
-        <h2 class="section-title">CONFIRA NOSSA GRADE DE PRODUTOS</h2>
+        <h2 class="section-title"> PRODUTOS EM DESTAQUE</h2>
         
         <div class="products-grid">
             <div class="product-card">
-                <div class="product-image"></div>
+                <div class="product-image">
+                    <img src="Assets\Produtos\Ft13.jpg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
                 <div class="product-info">
-                    <img src = "" >
                     <h3 class="product-name">Nike Dri-FIT</h3>
                     <p class="product-subtitle">Training Essential</p>
                     <div class="performance-indicator">
@@ -91,55 +92,99 @@
                     <div class="product-price">
                         <span>R$ 250,00</span>
                     </div>
-                    <button class="btn-buy" onclick="buyProduct('Nike Dri-FIT Training')">Add to Cart</button>
+                    <button class="btn-buy" onclick="buyProduct('Nike Dri-FIT Training')">Comprar 🛒</button>
                 </div>
             </div>
 
             <div class="product-card">
-                <div class="product-image"></div>
+                <div class="product-image">
+                    <img src="Assets\Produtos\Ft11.jpg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
                 <div class="product-info">
-                    <img scr="" >
                     <h3 class="product-name">Nike Pro Combat</h3>
                     <p class="product-subtitle">Elite Performance</p>
                     <div class="performance-indicator">
                     </div>
-                    <div class="product-price">R$ 250,00</div>
-                    <button class="btn-buy" onclick="buyProduct('Nike Pro Combat')">Add to Cart</button>
+                    <div class="product-price">
+                        R$ 250,00
+                    </div>
+                    <button class="btn-buy" onclick="buyProduct('Nike Pro Combat')">Comprar 🛒</button>
                 </div>
             </div>
 
             <div class="product-card">
-                <div class="product-image"></div>
+                <div class="product-image">
+                    <img src="Assets\Produtos\Ft1.webp" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
                 <div class="product-info">
                     <h3 class="product-name">Nike Academy</h3>
                     <p class="product-subtitle">Football Training</p>
                     <div class="performance-indicator">
                     </div>
                     <div class="product-price">R$ 250,00</div>
-                    <button class="btn-buy" onclick="buyProduct('Nike Academy Football')">Add to Cart</button>
+                    <button class="btn-buy" onclick="buyProduct('Nike Academy Football')" >Comprar 🛒</button>
                 </div>
             </div>
 
-            <div class="product-card">
-                <div class="product-image"></div>
+            <div class="product-card" >
+                <div class="product-image">
+                    <img src="Assets\Produtos\Ft2.webp" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>  
                 <div class="product-info">
                     <h3 class="product-name">Nike Basketball</h3>
                     <p class="product-subtitle">Court Ready</p>
                     <div class="performance-indicator">
                     </div>
                     <div class="product-price">R$ 250,00</div>
-                    <button class="btn-buy" onclick="buyProduct('Nike Basketball')">Add to Cart</button>
+                    <button class="btn-buy" onclick="buyProduct('Nike Basketball')">Comprar 🛒</button>
                 </div>
             </div>
 
             <div class="product-card">
-                <div class="product-image"></div>
+                <div class="product-image"> 
+                    <img src="Assets\Produtos\Ft4.webp" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
                 <div class="product-info">
                     <h3 class="product-name">Nike Running</h3>
                     <p class="product-subtitle">Distance Champion</p>
-                    </div>
                     <div class="product-price">R$ 250,00</div>
-                    <button class="btn-buy" onclick="buyProduct('Nike Running')">Add to Cart</button>
+                    <button class="btn-buy" onclick="buyProduct('Nike Running')">Comprar 🛒</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image"> 
+                    <img src="Assets\Produtos\Ft10.jpg" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Nike Running</h3>
+                    <p class="product-subtitle">Distance Champion</p>
+                    <div class="product-price">R$ 250,00</div>
+                    <button class="btn-buy" onclick="buyProduct('Nike Running')">Comprar 🛒</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image"> 
+                    <img src="Assets\Produtos\Ft9.webp" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Nike Running</h3>
+                    <p class="product-subtitle">Distance Champion</p>
+                    <div class="product-price">R$ 250,00</div>
+                    <button class="btn-buy" onclick="buyProduct('Nike Running')">Comprar 🛒</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image"> 
+                    <img src="Assets\Produtos\ft14.webp" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;z-index: 0;">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Nike Running</h3>
+                    <p class="product-subtitle">Distance Champion</p>
+                    <div class="product-price">R$ 250,00</div>
+                    <button class="btn-buy" onclick="buyProduct('Nike Running')">Comprar 🛒</button>
                 </div>
             </div>
 
@@ -158,6 +203,7 @@
             <br>
             Ciência de Dados, 2025 - Mateus Santos, Bruno Cesar, Paola Carvalho, Lucas Ezequiel e Kevin.
         </p>
+
     </footer>
     <script src="script.js"></script>
 </body>
