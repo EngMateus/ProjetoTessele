@@ -16,13 +16,12 @@ O principal objetivo do projeto é construir uma plataforma de e-commerce funcio
 ## 🛠️ Tecnologias utilizadas
 
 - HTML, CSS e JavaScript (Frontend)
-- Frameworks (a definir, ex.: Flask, Django, Bootstrap) -----> verificar como organizar essa parte
 - Git e GitHub para versionamento
 
 ## 👨‍💻 Equipe de Desenvolvimento
 
 - **Mateus Silva**
-- **Paola (sobrenome)**
+- **Paola**
 - **Bruno Cesar**
 - **Lucas Negrini**
 - **Kevin Vinícius**
