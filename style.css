@@ -341,7 +341,7 @@ footer a{
     
     .menu {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 0px;
         padding: 12px;
     }
     
@@ -370,3 +370,148 @@ footer a{
         font-size: 4rem;
     }
 }
+
+
+/* css para pagina de produtos (Kevin) */
+
+
+nav {
+  background: linear-gradient(to bottom, #111, #000);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.menu li a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.titulo-secao {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 24px;
+}
+
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.container-produtos {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+
+}
+
+.container-produtos::-webkit-scrollbar {
+  display: none;
+}
+
+.produto {
+  position: relative;           /* Necessário para o posicionamento absoluto do texto */
+  min-width: 210px;
+  height: 300px;                /* Define uma altura fixa pro card (ajuste conforme seu gosto) */
+  border-radius: 10px;
+  overflow: hidden;             /* Faz a imagem e o conteúdo não ultrapassarem os limites do card */
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.produto img {
+  width: 100%;
+  height: 100%;                 /* Faz a imagem preencher toda a altura do card */
+  object-fit: cover;            /* Faz a imagem cobrir todo o container, cortando se precisar */
+  border-radius: 0;             /* Retira o arredondamento da imagem (o card já tem border-radius) */
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+  border-color: 
+#3c7fff; /* Azul claro elegante */
+  background-color: 
+#1a1a3f; /* Fundo um pouco mais azul escuro */
+  box-shadow: 0 0 10px rgba(60, 127, 255, 0.4), 
+              0 0 20px rgba(60, 127, 255, 0.2); /* Brilho suave e gradual */
+}
+
+.produto:hover img {
+  transform: scale(1.05); /* Zoom também na imagem */
+}
+
+.info-produto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);   /* Camada escura semi-transparente */
+  color: #fff;
+  text-align: center;
+}
+
+.info-produto h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.info-produto p {
+  margin: 5px 0 0;
+  font-weight: bold;
+}
+
+
+/* Setas personalizadas com aura azul*/
+
+.btn-prev,
+.btn-next {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.btn-prev { left: 0; }
+.btn-next { right: 0; }
+
+/* Efeito de zoom ao passar o mouse */
+.btn-prev:hover,
+.btn-next:hover {
+  transform: translateY(-50%) scale(1.2);
+  text-shadow: 0 0 3px blue;
+}
+
+.imgteste{
+  display: flex;
+    left: 5px;
+    width: 250px;
+    height: 250px;}

@@ -1,17 +1,24 @@
-function trocaTema(){
-    // pega pela tag do body
-    let areaBody = window.document.querySelector('body');
-    // usandoa tag de antes, mudo o atributo backgroundColor
-    areaBody.style.backgroundColor = 'black';
-    // mudar a cor do header para branco e letras pretas
-    let corFundoHeader = window.document.querySelector('header');
-    corFundoHeader.style.backgroundColor = 'white';
-    // mudar a cor das letras
-    let TituloHeader =  window.document.querySelector('h1');
-    TituloHeader.style.color = 'black';
-}
+document.addEventListener('DOMContentLoaded', () => {
+  const nextBtns = document.querySelectorAll('.btn-next');
+  const prevBtns = document.querySelectorAll('.btn-prev');
+  const carrosseis = document.querySelectorAll('.container-produtos');
 
+  nextBtns.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      const container = carrosseis[i];
+      container.scrollLeft += 300;
+      animarProdutos(container);
+    });
+  });
 
-// fazer função de onclick para retornar
+  prevBtns.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      const container = carrosseis[i];
+      container.scrollLeft -= 300;
+      animarProdutos(container);
+    });
+  });
 
-
+  // Anima os produtos visíveis ao carregar a página
+  carrosseis.forEach(animarProdutos);
+});
